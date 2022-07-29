@@ -26,7 +26,7 @@ CLD.detect_language_summary("हैदराबाद उच्चार ऐक�
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cld2', require 'cld'
+gem 'cld2', require: 'cld'
 ```
 
 And then execute:
