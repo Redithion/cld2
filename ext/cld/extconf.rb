@@ -29,6 +29,9 @@ $objs = [
   "thunk.o"
 ]
 
+# Prevents issues compiling with newer GCC versions
+$defs.push("-std=c++98")
+
 if have_library('stdc++')
   create_makefile('libcld2')
 end
